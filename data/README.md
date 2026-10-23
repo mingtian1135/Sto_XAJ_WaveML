@@ -12,10 +12,11 @@ data/
 ├── static_data.csv
 └── basins/
     ├── README.md
+    ├── selected_basin_ids.txt
     └── 14301000.csv
 ```
 
-The repository provides one example basin time series to illustrate the expected input format. The complete time series for all 182 selected basins are not included because of storage limitations.
+The repository includes a list of the selected basin identifiers and one example basin time series. The complete time series for all 182 selected basins are not included because of storage limitations.
 
 ## Data Source
 
@@ -81,6 +82,8 @@ To reproduce the experiments:
 
 ## Data Availability
 
-Only an example basin file is included in this repository. The complete time series for the 182 selected basins are not distributed here because of storage limitations.
+The repository provides basins/selected_basin_ids.txt and one example basin file, basins/14301000.csv, for documentation and format verification.
 
-Users must obtain and prepare the required data independently. Redistribution of original or processed data should comply with the applicable data access and licensing terms.
+The complete time series for all 182 selected basins are not distributed here because of storage limitations. Users must obtain the required data from the original CAMELS source and prepare the selected basin files independently.
+
+Redistribution of original or processed data should comply with the applicable data access and licensing terms.
